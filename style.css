@@ -12,6 +12,20 @@ html {
     scroll-behavior: smooth;
 }
 
+.social-icons li a i {
+    color: white;
+    padding: 17px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(66, 65, 70, 0.781);
+    font-size: 1.9rem;
+    color: blue;
+}
+
 
 /* icon bar */
 
@@ -22,23 +36,17 @@ html {
 }
 
 .horizontal-list li {
-    display: inline-block;
-    margin: 0px 8px 8px 0px;
+    display: flow-root;
+    margin: 26px 30px 13px 1px;
     font-weight: 100;
     font-size: 0.9rem;
 }
 
 .horizontal-list li a {
-    color: white;
     text-decoration: none;
     transition: color 0.5s, border-bottom 3s;
     font-size: x-large;
     font-family: sans-serif;
-}
-
-.horizontal-list li a:hover {
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid white;
 }
 
 .text-center {
@@ -51,12 +59,6 @@ html {
     font-size: 1.7rem;
     border-radius: 50%;
     position: relative;
-}
-
-.social-icons li a i:hover {
-    box-shadow: 0px 0px 6px 4px rgba(66, 65, 70, 0.781);
-    font-size: 1.8rem;
-    color: rgb(31, 31, 221);
 }
 
 
@@ -94,7 +96,7 @@ section {
 .about,
 .services,
 .skills,
-.teams,
+.Experience,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
@@ -375,18 +377,18 @@ section .title::after {
 /* services section styling */
 
 .services,
-.teams {
+.Experience {
     color: #fff;
     background: #111;
 }
 
 .services .title::before,
-.teams .title::before {
+.Experience .title::before {
     background: #fff;
 }
 
 .services .title::after,
-.teams .title::after {
+.Experience .title::after {
     background: #111;
     content: "what i provide";
 }
@@ -521,13 +523,13 @@ section .title::after {
 }
 
 
-/* teams section styling */
+/* Experience section styling */
 
-.teams .title::after {
-    content: "who with me";
+.Experience .title::after {
+    content: "what i did";
 }
 
-.teams .carousel .card {
+.Experience .carousel .card {
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -536,11 +538,11 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.Experience .carousel .card:hover {
     background: rgb(20, 73, 220);
 }
 
-.teams .carousel .card .box {
+.Experience .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,17 +550,17 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.Experience .carousel .card:hover .box {
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.Experience .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.Experience .carousel .card img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -567,7 +569,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.Experience .carousel .card:hover img {
     border-color: #fff;
 }
 
