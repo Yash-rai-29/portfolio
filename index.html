@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <script src="https://kit.fontawesome.com/e5318cffa7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="fontawe\css\all.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
@@ -23,7 +24,7 @@
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
+    <nav class="navbar" style="position: fixed;">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>folio.</span></a></div>
             <ul class="menu">
@@ -208,20 +209,34 @@
             <h2 class="title">My Experience</h2>
             <div class="carousel owl-carousel">
                
-                <div class="card">
-                    <div class="box">
-                        <img src="https://media.licdn.com/dms/image/D4D0BAQGotxw-I70YMQ/company-logo_200_200/0/1683617269944?e=1701907200&v=beta&t=c4A_XzstJBBY2zYNEnJWQZ3dTjdmfxbC5Jl6gnhRlnE" alt="">
-                        <div class="text">ABHYAZ</div>
-                        <p>Web Developer Intern</p>
-                        
-                        <p>Dec 2022 - May 2023</p>
+                <div class="">
+                    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl ">
+                        <div class="md:flex items-center">
+                            <div class="md:flex-shrink-0">
+                                <img class="h-full w-full object-cover md:w-48" src="https://media.licdn.com/dms/image/D4D0BAQGotxw-I70YMQ/company-logo_200_200/0/1683617269944?e=1703116800&v=beta&t=9S471Db4mPnErxxA3k12Op0u8wO7comI4-vdWVI7UaI" alt="Your Photo">
+                            </div>
+                            <div class="p-8 ">
+                                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Web Developer</div>
+                                <div class="block mt-1 text-lg leading-tight font-semibold text-gray-900">Abhyaz - Internship</div>
+                                <div class="mt-2 text-gray-600">
+                                    Dec 2022 - May 2023 &middot; Remote
+                                </div>
+                                <div class="mt-4">
+                                    <p class="text-gray-700 leading-snug">
+                                        Designed, developed, and maintained web applications and sites utilizing the Zoho platform and various other web development technologies.
+                                    </p>
+                                    <p class="mt-2 text-gray-700 leading-snug">
+                                        Performed rigorous testing and debugging on web applications and sites to guarantee functionality, security, and user-friendliness.
+                                    </p>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
-                    
-                    
                 </div>
                
-             
-
+              
             </div>
         </div>
     </section>
