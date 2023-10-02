@@ -22,7 +22,7 @@ html {
 
 .social-icons li a i:hover {
     box-shadow: 0px 0px 6px 4px rgba(66, 65, 70, 0.781);
-    font-size: 1.9rem;
+    /* font-size: 1.9rem; */
     background-color: white;
     color: blue;
 }
@@ -251,7 +251,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/Background1.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -309,6 +309,26 @@ section .title::after {
     font-size: 27px;
 }
 
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
 
 /* about section styling */
 
