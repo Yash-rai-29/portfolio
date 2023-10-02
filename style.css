@@ -412,7 +412,7 @@ section .title::after {
 .services .title::after,
 .Experience .title::after {
     background: #111;
-    content: "what i provide";
+    content: "what i build";
 }
 
 .services .serv-content .card {
@@ -427,6 +427,7 @@ section .title::after {
 
 .services .serv-content .card:hover {
     background: rgb(20, 73, 220);
+
 }
 
 .services .serv-content .card .box {
@@ -438,7 +439,7 @@ section .title::after {
 }
 
 .services .serv-content .card i {
-    font-size: 50px;
+    font-size: 20px;
     color: rgb(20, 73, 220);
     transition: color 0.3s ease;
 }
@@ -446,6 +447,10 @@ section .title::after {
 .services .serv-content .card:hover i {
     color: #fff;
 }
+.services .serv-content .card:hover a {
+    color: #fff;
+}
+
 
 .services .serv-content .card .text {
     font-size: 25px;
@@ -458,6 +463,9 @@ section .title::after {
 
 .skills .title::after {
     content: "what i know";
+}
+.Projects .title::after {
+    content: "what i Build";
 }
 
 .skills .skills-content .column {
